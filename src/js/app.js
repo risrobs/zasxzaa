@@ -8,3 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+function changeColor(color) {
+  var element = document.getElementById('box');
+  element.style.backgroundColor = color;
+}
