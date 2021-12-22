@@ -27,3 +27,14 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+root {
+  --white { color: #fff}
+  --black { color: #000}
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
